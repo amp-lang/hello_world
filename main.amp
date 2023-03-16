@@ -1,0 +1,5 @@
+func Println(str: []const u8);
+
+func Main() {
+    Println("Hello, world! 😊");
+}
