@@ -1,5 +1,5 @@
-func Println(str: []const u8);
+import "Std/Io";
 
-func Main() {
-    Println("Hello, world! 😊");
+export func Main() {
+    Std.Println("Hello, world!");
 }
